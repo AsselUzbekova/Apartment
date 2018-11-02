@@ -1,0 +1,21 @@
+package myapartment;
+
+public class MyApartment {
+
+    public static void main(String[] args) {
+        /*        Room hall = new Room("Hall");
+        Room bedroom = new Room("Bedroom");
+        Room cloakroom = new Room("Cloakroom"); */
+
+        Window windows = new Window();
+        windows.calculateWin();
+
+        Door doors = new Door();
+        doors.calculateDoor();
+
+        Wall walls = new Wall();
+        walls.calculateWall();
+
+    }
+
+}
