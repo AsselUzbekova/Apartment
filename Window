@@ -1,0 +1,15 @@
+package myapartment;
+
+import java.util.HashSet;
+
+public class Window {
+
+    public void calculateWin() {
+        HashSet<String> setWin = new HashSet<>();
+        setWin.add("hallWin");
+        setWin.add("bedroomWin");
+        setWin.add("cloakroomWin");
+
+        System.out.println("There are " + setWin.size() + " windows in this apartment");
+    }
+}
