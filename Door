@@ -1,0 +1,21 @@
+package myapartment;
+
+import java.util.HashSet;
+
+public class Door {
+
+    public void calculateDoor() {
+        HashSet<String> setDoor = new HashSet<>();
+        setDoor.add("AdjacentDoorEast");
+
+        setDoor.add("AdjacentDoorEast");
+        setDoor.add("OutDoor");
+        setDoor.add("InnerDoorCenter");
+        setDoor.add("AdjacentDoorWest");
+
+        setDoor.add("InnerDoorWest");
+        setDoor.add("AdjacentDoorWest");
+
+        System.out.println("There are " + setDoor.size() + " doors in this apartment");
+    }
+}
